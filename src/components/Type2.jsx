@@ -13,7 +13,7 @@ import {
 import "aos/dist/aos.css";
 
 
-const Type2 = ({head, content}) => {
+const Type2 = ({image, head, content}) => {
   return (
     <Container maxW={"8xl"} data-aos="fade-up" data-aos-duration="1000">
       <Stack
@@ -31,7 +31,7 @@ const Type2 = ({head, content}) => {
               w={"100%"}
               h={"100%"}
               src={
-                "https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg"
+                image
               }
             />
           </Box>

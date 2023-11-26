@@ -78,6 +78,7 @@ const Navbar = () => {
                             <Button variant="ghost" color={text}>
                                 Home
                             </Button>
+                           
                             <Button variant="ghost" color={text}>
                                 Industries
                             </Button>
